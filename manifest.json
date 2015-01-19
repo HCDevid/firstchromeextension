@@ -20,18 +20,17 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/*"
+        // "http://*/*",
+        // "https://*/*",
+        "https://www.khanacademy.org/*",
+        "http://www.khanacademy.org/*"
+      ],
+      "js": [
+        "js/jquery/jquery.js",
+        "src/inject/inject.js"
       ],
       "css": [
         "src/inject/inject.css"
-      ]
-    },
-    {
-      "matches": [
-        "https://www.google.com/*"
-      ],
-      "js": [
-        "src/inject/inject.js"
       ]
     }
   ]

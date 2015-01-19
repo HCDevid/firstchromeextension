@@ -1,3 +1,4 @@
+/*
 chrome.extension.sendMessage({}, function(response) {
 	var readyStateCheckInterval = setInterval(function() {
 	if (document.readyState === "complete") {
@@ -11,3 +12,7 @@ chrome.extension.sendMessage({}, function(response) {
 	}
 	}, 10);
 });
+
+*/
+
+$('body').prepend('<div class = "totalbox"></div>');

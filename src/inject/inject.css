@@ -1,3 +1,13 @@
 /**
  * Place your custom CSS styles here.
  **/
+@import "../css/flow.css";
+
+.totalbox {
+	/*float: right;*/
+	position: fixed;
+	left:80%;
+	width: 20%;
+	height: 100%;
+	color: green;
+};
